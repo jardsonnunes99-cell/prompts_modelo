@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📸 PACK 80 PROMPTS ULTRA REALISTAS • Rosto Real</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0f0f0f;
+            color: #fff;
+            margin: 0;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            color: #00ff88;
+            font-size: 2.8rem;
+            margin-bottom: 8px;
+        }
+        p.subtitle {
+            text-align: center;
+            color: #aaa;
+            max-width: 900px;
+            margin: 0 auto 50px;
+            font-size: 1.25rem;
+        }
+        .container {
+            max-width: 1180px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #1a1a1a;
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-8px);
+        }
+        .title {
+            color: #00ff88;
+            font-size: 1.75rem;
+            margin: 0 0 12px 0;
+        }
+        .description {
+            color: #ccc;
+            font-style: italic;
+            margin-bottom: 22px;
+            font-size: 1.15rem;
+        }
+        .prompt-box {
+            background: #111;
+            padding: 22px;
+            border-radius: 14px;
+            font-family: monospace;
+            font-size: 1rem;
+            white-space: pre-wrap;
+            overflow-x: auto;
+            border: 2px solid #333;
+            line-height: 1.5;
+        }
+        .btn {
+            background: #00ff88;
+            color: #000;
+            border: none;
+            padding: 16px 32px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-radius: 14px;
+            cursor: pointer;
+            margin-top: 18px;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn:hover {
+            background: #00cc66;
+            transform: scale(1.06);
+        }
+        .btn.copied {
+            background: #00cc66;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📸 PACK 80 PROMPTS ULTRA REALISTAS</h1>
+            <p class="subtitle">
+                80 prompts otimizados para fotos com rosto real (face swap).<br>
+                Cada card tem descrição + prompt completo + botão que copia instantaneamente.<br>
+                Perfeito para Instagram, editorial, leads e vendas.
+            </p>
+        </div>
+
+        <!-- 1 a 40 -->
+        <div class="card">
+            <h2 class="title">1. Editorial Street Style</h2>
+            <p class="description">Ensaio editorial de street style contra parede de grafite urbano, pose confiante e iluminação natural dramática.</p>
+            <div class="prompt-box" id="p1">Ultra-realistic fashion editorial photo of a person standing against a modern urban graffiti wall, confident expression, natural side lighting, shallow depth of field, high detail skin texture, realistic shadows. The AI must generate the full body and scenario, but keep the uploaded face exactly as provided. The user must upload a clear front-facing photo of their face. 8K resolution, DSLR quality, cinematic composition. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p1', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">2. Luxo Minimalista</h2>
+            <p class="description">Retrato minimalista de luxo em ambiente neutro, pose elegante e iluminação suave.</p>
+            <div class="prompt-box" id="p2">Ultra-realistic luxury indoor portrait, minimalistic environment with neutral tones, person sitting on an elegant chair with straight posture and serious expression, soft diffused lighting, realistic textures. The AI must create the full scene but strictly preserve the uploaded face. User must upload a high-quality face image. 8K, studio quality, ultra detailed. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p2', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">3. Praia Golden Hour</h2>
+            <p class="description">Foto na praia durante a hora dourada, luz quente do sol, olhar para o horizonte com vento natural no cabelo.</p>
+            <div class="prompt-box" id="p3">Ultra-realistic beach photo during golden hour, warm sunlight, person looking at the horizon, natural wind effect on hair, cinematic lighting, detailed skin realism. The AI generates body and environment, but must maintain the exact uploaded face. User must upload a clear portrait photo. 8K, cinematic, ultra-realistic. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p3', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">4. Café Estético</h2>
+            <p class="description">Cena em cafeteria moderna e estética, segurando xícara de café com expressão relaxada e iluminação ambiente suave.</p>
+            <div class="prompt-box" id="p4">Ultra-realistic modern coffee shop scene, person holding a coffee cup, relaxed and natural expression, soft ambient lighting, shallow depth of field. The AI must build the full environment while preserving the uploaded face exactly. User must upload a clear facial image. DSLR quality, 8K, highly detailed. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p4', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">5. Empresarial Poder</h2>
+            <p class="description">Retrato corporativo poderoso, pose com braços cruzados em escritório moderno e iluminação profissional.</p>
+            <div class="prompt-box" id="p5">Ultra-realistic corporate portrait, person standing with arms crossed, dominant posture, modern office background, professional lighting, sharp details. The AI creates the full scene but must keep the uploaded face identical. User must upload a front-facing face photo. 8K resolution, professional photography. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p5', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">6. Close Fashion</h2>
+            <p class="description">Close-up fashion editorial estilo capa de revista, iluminação dramática e detalhes de pele nítidos.</p>
+            <div class="prompt-box" id="p6">Ultra-realistic close-up fashion portrait, dramatic lighting, magazine cover style, sharp skin details, high contrast. The AI generates the composition but must preserve the uploaded face exactly. User must upload a high-resolution face image. 8K, editorial quality. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p6', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">7. Fitness Lifestyle</h2>
+            <p class="description">Foto de lifestyle fitness na academia, ajustando cabelo ou roupa com fundo moderno e iluminação realista.</p>
+            <div class="prompt-box" id="p7">Ultra-realistic gym lifestyle photo, person adjusting hair or outfit naturally, modern gym background, realistic lighting and shadows. The AI builds the full body and scene but must keep the uploaded face unchanged. User must upload a clear face photo. 8K, ultra-detailed. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p7', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">8. Rooftop Urbano</h2>
+            <p class="description">Foto no rooftop com skyline da cidade ao fundo, pose relaxada e luz de pôr do sol ou dia.</p>
+            <div class="prompt-box" id="p8">Ultra-realistic rooftop city photo, person in a relaxed pose with skyline background, sunset or daylight lighting, cinematic depth. The AI generates full environment but must preserve the uploaded face exactly. User must upload a high-quality face image. 8K, cinematic realism. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p8', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">9. Influencer Lifestyle</h2>
+            <p class="description">Foto candid de influencer caminhando na rua da cidade, estilo natural e iluminação suave.</p>
+            <div class="prompt-box" id="p9">Ultra-realistic influencer lifestyle photo, person walking naturally on a city street, candid style, soft lighting, natural movement. The AI must generate the full body and environment while preserving the uploaded face. User must upload a clear face image. 8K, DSLR quality. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p9', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">10. Fundo Preto Dramático</h2>
+            <p class="description">Retrato de estúdio com fundo preto, iluminação lateral forte e sombras dramáticas.</p>
+            <div class="prompt-box" id="p10">Ultra-realistic studio portrait with black background, strong side lighting, dramatic shadows, artistic composition. The AI creates the scene but must keep the uploaded face identical. User must upload a high-quality face photo. 8K, studio lighting. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p10', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">11. Luxo Noturno</h2>
+            <p class="description">Cena de luxo noturna com luzes da cidade ao fundo, pose elegante e reflexos cinematográficos.</p>
+            <div class="prompt-box" id="p11">Ultra-realistic night luxury scene, city lights in the background, elegant pose, cinematic lighting, detailed reflections. The AI generates the full scene but must preserve the uploaded face exactly. User must upload a clear face image. 8K, ultra-realistic. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p11', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">12. Natureza Premium</h2>
+            <p class="description">Retrato premium em meio à natureza exuberante, luz natural suave e pose elegante.</p>
+            <div class="prompt-box" id="p12">Ultra-realistic nature portrait, person surrounded by lush greenery, soft natural lighting, elegant pose. The AI creates environment and body but must keep the uploaded face unchanged. User must upload a high-quality face image. 8K, highly detailed. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p12', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">13. Casual Clean</h2>
+            <p class="description">Retrato clean e casual com fundo claro, estilo minimalista e foco no rosto.</p>
+            <div class="prompt-box" id="p13">Ultra-realistic clean portrait with light background, minimal clothing style, focus on face, soft lighting. The AI generates composition but must preserve the uploaded face exactly. User must upload a clear face image. 8K, studio quality. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p13', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">14. Caminhando Modelo</h2>
+            <p class="description">Foto de modelo caminhando confiante como em passarela, movimento capturado em ambiente urbano.</p>
+            <div class="prompt-box" id="p14">Ultra-realistic fashion walking shot, person walking confidently like a runway model in an urban environment, motion captured, cinematic lighting. The AI builds the full scene but must keep the uploaded face identical. User must upload a clear face image. 8K resolution. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p14', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">15. Luxo Carro</h2>
+            <p class="description">Cena de luxo encostada em carro de alto padrão, pose confiante e reflexos cinematográficos.</p>
+            <div class="prompt-box" id="p15">Ultra-realistic luxury car scene, person leaning on a high-end car, confident pose, cinematic lighting, detailed reflections. The AI generates everything but must preserve the uploaded face exactly. User must upload a high-quality face photo. 8K, ultra detailed. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p15', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">16. Espelho Selfie</h2>
+            <p class="description">Selfie no espelho em estilo premium influencer, reflexos realistas e iluminação natural.</p>
+            <div class="prompt-box" id="p16">Ultra-realistic mirror selfie, premium influencer style, realistic reflections, natural lighting. The AI creates environment and body but must keep the uploaded face unchanged. User must upload a clear face image. 8K resolution. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p16', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">17. Escritório Moderno</h2>
+            <p class="description">Cena em escritório moderno, sentada na mesa com postura profissional e iluminação suave.</p>
+            <div class="prompt-box" id="p17">Ultra-realistic modern office scene, person sitting at a desk, professional posture, clean environment, soft lighting. The AI generates scene but must preserve the uploaded face exactly. User must upload a high-quality face photo. 8K, professional. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p17', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">18. Lifestyle Casa</h2>
+            <p class="description">Foto de lifestyle em casa elegante, pose relaxada e texturas de alta qualidade.</p>
+            <div class="prompt-box" id="p18">Ultra-realistic home lifestyle photo, elegant interior, relaxed pose, natural lighting, high detail textures. The AI creates full environment but must keep the uploaded face identical. User must upload a clear face image. 8K, ultra-realistic. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p18', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">19. Chuva Cinematográfica</h2>
+            <p class="description">Cena cinematográfica na chuva, gotas d’água, iluminação dramática e mood intenso.</p>
+            <div class="prompt-box" id="p19">Ultra-realistic rain scene, cinematic lighting, water droplets, dramatic mood, high detail textures. The AI generates full scene but must preserve the uploaded face exactly. User must upload a high-quality face image. 8K resolution. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p19', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">20. Revista de Luxo</h2>
+            <p class="description">Retrato editorial de revista de luxo, pose elegante e iluminação de alta moda.</p>
+            <div class="prompt-box" id="p20">Ultra-realistic high fashion magazine style portrait, elegant pose, luxury editorial lighting, highly detailed textures. The AI creates full composition but must keep the uploaded face unchanged. User must upload a clear face photo. 8K, editorial quality. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p20', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">21. Olhar por cima do ombro</h2>
+            <p class="description">Pose olhando por cima do ombro (engajamento alto), corpo virado e expressão sedutora.</p>
+            <div class="prompt-box" id="p21">Ultra-realistic photo of a person looking back over their shoulder, body slightly turned away from the camera, confident and seductive expression, shallow depth of field, soft natural lighting, blurred urban background. The AI must generate full body and environment but preserve the uploaded face exactly. User must upload a clear front-facing face image. 8K, cinematic realism. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p21', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">22. Sentado na escada urbana</h2>
+            <p class="description">Pose sentada em escadas de concreto urbano, cotovelos nos joelhos e postura confiante.</p>
+            <div class="prompt-box" id="p22">Ultra-realistic photo of a person sitting on modern concrete stairs, elbows resting on knees, relaxed but confident posture, urban street background, natural daylight, detailed textures. The AI must create the full body and scene but keep the uploaded face unchanged. User must upload a high-quality face photo. 8K, DSLR quality. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p22', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">23. Pose cruzando a rua</h2>
+            <p class="description">Foto dinâmica cruzando a rua, movimento capturado e vibe candid natural.</p>
+            <div class="prompt-box" id="p23">Ultra-realistic dynamic shot of a person crossing a city street mid-step, motion blur on legs, sharp face focus, natural candid vibe, cinematic lighting. The AI must generate the full body and environment but preserve the uploaded face exactly. User must upload a clear face image. 8K resolution. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p23', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">24. Encostado na parede com perna dobrada</h2>
+            <p class="description">Pose encostada na parede com uma perna dobrada, expressão confiante e sombras suaves.</p>
+            <div class="prompt-box" id="p24">Ultra-realistic photo of a person leaning against a wall, one leg bent and foot resting on the wall, relaxed confident expression, urban texture background, soft shadows. The AI builds the scene but must keep the uploaded face identical. User must upload a clear facial image. 8K, ultra detailed. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p24', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">25. Ajustando relógio/acessório</h2>
+            <p class="description">Pose ajustando relógio ou acessório, expressão séria e mood de autoridade.</p>
+            <div class="prompt-box" id="p25">Ultra-realistic close-to-mid shot of a person adjusting a wristwatch or accessory, serious expression, luxury lifestyle mood, shallow depth of field, cinematic lighting. The AI must generate full composition but preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p25', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">26. Sentado de lado olhando câmera</h2>
+            <p class="description">Pose sentada de lado com corpo virado 90° e olhar direto para a câmera.</p>
+            <div class="prompt-box" id="p26">Ultra-realistic photo of a person sitting sideways on a chair, body turned 90 degrees, head facing camera, confident gaze, minimalistic background, soft lighting. The AI must create the full body but keep the uploaded face unchanged. User must upload a clear face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p26', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">27. Mão no bolso caminhando</h2>
+            <p class="description">Foto caminhando com uma mão no bolso, postura relaxada e confiante.</p>
+            <div class="prompt-box" id="p27">Ultra-realistic fashion photo of a person walking with one hand in pocket, relaxed confident posture, natural street background, cinematic depth of field. The AI must generate full body and environment while preserving the uploaded face. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p27', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">28. Close com mão no rosto</h2>
+            <p class="description">Close-up com mão tocando o rosto (estética forte) e contato visual intenso.</p>
+            <div class="prompt-box" id="p28">Ultra-realistic close-up portrait with one hand touching the face, fingers near jawline, intense eye contact, soft shadows, studio lighting. The AI must preserve the uploaded face exactly. User must upload a high-resolution face image. 8K editorial. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p28', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">29. Olhando celular</h2>
+            <p class="description">Foto candid olhando para o celular, postura natural e ambiente de lifestyle real.</p>
+            <div class="prompt-box" id="p29">Ultra-realistic candid photo of a person looking at a smartphone, natural posture, soft daylight, modern lifestyle environment, blurred background. The AI must create full scene but keep the uploaded face unchanged. User must upload a clear face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p29', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">30. Sentado no chão estilo fashion</h2>
+            <p class="description">Pose sentada no chão com um joelho levantado, estilo fashion relaxado.</p>
+            <div class="prompt-box" id="p30">Ultra-realistic fashion shot of a person sitting on the ground, one knee up, relaxed but stylish pose, urban or studio background, cinematic lighting. The AI must generate full body but preserve the uploaded face exactly. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p30', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">31. De pé com braços relaxados</h2>
+            <p class="description">Pose clássica de modelo em pé, braços relaxados e expressão neutra confiante.</p>
+            <div class="prompt-box" id="p31">Ultra-realistic full-body shot of a person standing straight with arms relaxed by the sides, confident neutral expression, clean background, professional lighting. The AI must generate full body but keep the uploaded face identical. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p31', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">32. Pose olhando para baixo</h2>
+            <p class="description">Pose olhando levemente para baixo (mistério), iluminação moody e sombras suaves.</p>
+            <div class="prompt-box" id="p32">Ultra-realistic portrait of a person slightly looking down, eyes partially hidden, moody lighting, soft shadows, artistic composition. The AI must preserve the uploaded face exactly. User must upload a clear face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p32', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">33. Rindo natural</h2>
+            <p class="description">Foto rindo de forma natural e genuína, humanização e luz suave.</p>
+            <div class="prompt-box" id="p33">Ultra-realistic candid photo of a person laughing naturally, genuine emotion, soft natural light, lifestyle environment, shallow depth of field. The AI must generate the full scene but keep the uploaded face unchanged. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p33', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">34. Segurando jaqueta no ombro</h2>
+            <p class="description">Pose segurando jaqueta no ombro enquanto caminha, vibe confiante urbana.</p>
+            <div class="prompt-box" id="p34">Ultra-realistic fashion shot of a person holding a jacket over one shoulder, confident walking pose, urban background, cinematic lighting. The AI must create full body and scene but preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p34', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">35. Encostado em vidro/reflexo</h2>
+            <p class="description">Pose encostada em vidro com reflexo sutil, arquitetura moderna e mood artístico.</p>
+            <div class="prompt-box" id="p35">Ultra-realistic photo of a person leaning against a glass wall with subtle reflection visible, modern architecture background, soft lighting, artistic mood. The AI must generate environment but keep the uploaded face identical. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p35', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">36. Pose sentado com pernas cruzadas</h2>
+            <p class="description">Pose sentada com pernas cruzadas, vibe elegante em ambiente moderno.</p>
+            <div class="prompt-box" id="p36">Ultra-realistic photo of a person sitting with legs crossed, relaxed posture, elegant vibe, indoor modern setting, soft diffused lighting. The AI must create the scene but preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p36', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">37. Mão passando no cabelo</h2>
+            <p class="description">Pose passando a mão no cabelo, expressão natural e profundidade de campo rasa.</p>
+            <div class="prompt-box" id="p37">Ultra-realistic lifestyle shot of a person running a hand through their hair, natural expression, soft lighting, shallow depth of field. The AI must generate full body but keep the uploaded face unchanged. User must upload a clear face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p37', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">38. Contra luz (silhueta leve)</h2>
+            <p class="description">Foto contra luz com silhueta suave, brilho cinematográfico e mood dramático.</p>
+            <div class="prompt-box" id="p38">Ultra-realistic backlit photo of a person with strong light behind creating a soft silhouette effect, subtle facial visibility, cinematic glow. The AI must preserve the uploaded face exactly. User must upload a high-quality face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p38', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">39. Olhar lateral (perfil forte)</h2>
+            <p class="description">Perfil lateral forte, mandíbula marcada e fundo desfocado.</p>
+            <div class="prompt-box" id="p39">Ultra-realistic side profile portrait of a person looking sideways, sharp jawline emphasis, soft lighting, blurred background. The AI must keep the uploaded face identical. User must upload a clear face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p39', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">40. Caminhando de costas olhando para trás</h2>
+            <p class="description">Foto caminhando de costas mas virando a cabeça para trás, composição dinâmica.</p>
+            <div class="prompt-box" id="p40">Ultra-realistic photo of a person walking away from the camera but turning head back toward it, dynamic composition, cinematic lighting, urban background. The AI must generate full scene but preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p40', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <!-- 41 a 60 -->
+        <div class="card">
+            <h2 class="title">41. Sentado na beira da cama</h2>
+            <p class="description">Cena íntima e premium de lifestyle, sentado na beira da cama com luz suave da manhã entrando pela janela.</p>
+            <div class="prompt-box" id="p41">Ultra-realistic lifestyle photo of a person sitting on the edge of a modern bed, leaning slightly forward with elbows on thighs, relaxed but introspective expression, soft morning window light entering from the side, minimal luxury bedroom, shallow depth of field. The AI must generate full body and environment but preserve the uploaded face exactly. User must upload a clear front-facing face image. 8K, cinematic realism. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p41', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">42. Amarrando tênis</h2>
+            <p class="description">Ação natural estilizada: amarrando o tênis agachado, ângulo baixo e profundidade forte.</p>
+            <div class="prompt-box" id="p42">Ultra-realistic dynamic shot of a person tying their shoelaces while crouched down, camera angle slightly low, strong perspective depth, urban pavement background, natural shadows. The AI must generate full body but keep the uploaded face unchanged. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p42', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">43. Abrindo porta</h2>
+            <p class="description">Entrada de cena dramática: abrindo porta moderna com luz cinematográfica saindo de dentro.</p>
+            <div class="prompt-box" id="p43">Ultra-realistic photo of a person opening a modern door halfway, body partially visible, confident expression, cinematic light coming from inside, dramatic contrast between light and shadow. The AI must generate environment but preserve the uploaded face exactly. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p43', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">44. Ajustando óculos escuros</h2>
+            <p class="description">Status social alto: abaixando óculos escuros enquanto olha direto para a câmera.</p>
+            <div class="prompt-box" id="p44">Ultra-realistic close-to-mid shot of a person slightly lowering sunglasses while looking directly at camera, strong confident expression, outdoor luxury environment, sharp lighting. The AI must preserve the uploaded face exactly. User must upload a high-resolution face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p44', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">45. Sentado no capô do carro</h2>
+            <p class="description">Pose casual no capô do carro, cabeça virada para o lado com luz de pôr do sol refletindo.</p>
+            <div class="prompt-box" id="p45">Ultra-realistic photo of a person sitting casually on a car hood, body facing forward but head turned sideways, sunset lighting reflecting on surface, cinematic vibe. The AI must generate full scene but keep the uploaded face identical. User must upload a clear face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p45', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">46. Deitado de lado apoiando a cabeça</h2>
+            <p class="description">Pose editorial relaxada: deitado de lado com a cabeça apoiada na mão.</p>
+            <div class="prompt-box" id="p46">Ultra-realistic fashion editorial shot of a person lying sideways, head supported by one hand, relaxed facial expression, studio or minimalist background, soft shadows. The AI must preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p46', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">47. Virando o corpo no movimento</h2>
+            <p class="description">Torção dinâmica com roupa esvoaçando – movimento capturado com foco no rosto.</p>
+            <div class="prompt-box" id="p47">Ultra-realistic motion capture of a person twisting their torso mid-movement, clothing flowing naturally, dynamic composition, blurred background with focus on face. The AI must generate full body but keep the uploaded face unchanged. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p47', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">48. Sentado na cadeira ao contrário</h2>
+            <p class="description">Dominância casual: sentado de costas na cadeira com braços apoiados no encosto.</p>
+            <div class="prompt-box" id="p48">Ultra-realistic photo of a person sitting on a chair backwards, arms resting on the chair back, confident relaxed expression, studio or office background, soft lighting. The AI must preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p48', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">49. Olhando pela janela</h2>
+            <p class="description">Profundidade emocional: de pé perto da janela grande olhando para fora com luz natural.</p>
+            <div class="prompt-box" id="p49">Ultra-realistic photo of a person standing close to a large window, looking outside, natural light illuminating one side of the face, reflective mood, blurred exterior. The AI must generate environment but keep the uploaded face identical. User must upload a clear face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p49', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">50. Jogando jaqueta no ar</h2>
+            <p class="description">Ação fashion: jaqueta sendo jogada para cima com movimento congelado.</p>
+            <div class="prompt-box" id="p50">Ultra-realistic action shot of a person throwing a jacket into the air, motion frozen mid-flight, confident expression, urban background, cinematic lighting. The AI must generate full body but preserve the uploaded face exactly. User must upload a high-quality face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p50', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">51. Encostado em mesa com mãos apoiadas</h2>
+            <p class="description">Postura assertiva: inclinado para frente com as duas mãos na mesa e contato visual direto.</p>
+            <div class="prompt-box" id="p51">Ultra-realistic photo of a person leaning forward slightly with both hands on a table, assertive posture, direct eye contact, modern interior background, soft shadows. The AI must keep the uploaded face unchanged. User must upload a clear face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p51', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">52. Sentado no chão encostado na parede</h2>
+            <p class="description">Ângulo baixo dramático: sentado no chão encostado na parede com perspectiva forte.</p>
+            <div class="prompt-box" id="p52">Ultra-realistic low-angle shot of a person sitting on the ground leaning against a wall, legs stretched or slightly bent, strong perspective distortion, urban texture. The AI must preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p52', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">53. Passando pela porta de vidro</h2>
+            <p class="description">Reflexo leve e moderno: caminhando ao lado de porta de vidro com sobreposição sutil.</p>
+            <div class="prompt-box" id="p53">Ultra-realistic photo of a person walking past a glass door with subtle reflection overlay, modern architecture, layered composition, cinematic lighting. The AI must generate environment but keep the uploaded face identical. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p53', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">54. Mão segurando gola da roupa</h2>
+            <p class="description">Controle visual forte: segurando a gola da roupa e puxando levemente com olhar intenso.</p>
+            <div class="prompt-box" id="p54">Ultra-realistic close shot of a person holding the collar of their shirt or jacket, slightly pulling it, intense gaze, shallow depth of field, studio lighting. The AI must preserve the uploaded face exactly. User must upload a high-resolution face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p54', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">55. Inclinado para frente olhando direto</h2>
+            <p class="description">Pressão visual: rosto mais próximo da câmera com olhar forte e fundo desfocado.</p>
+            <div class="prompt-box" id="p55">Ultra-realistic portrait of a person leaning slightly toward the camera, face closer than body, strong eye contact, blurred background, cinematic depth. The AI must generate composition but keep the uploaded face unchanged. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p55', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">56. Caminhando dentro de corredor longo</h2>
+            <p class="description">Profundidade cinematográfica: caminhando em corredor longo com linhas de perspectiva.</p>
+            <div class="prompt-box" id="p56">Ultra-realistic shot of a person walking inside a long corridor, strong leading lines, centered composition, dramatic lighting, vanishing point effect. The AI must generate full body but preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p56', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">57. Encostado em poste/luz urbana</h2>
+            <p class="description">Noite urbana: encostado em poste com luz artificial e sombras cinematográficas.</p>
+            <div class="prompt-box" id="p57">Ultra-realistic night photo of a person leaning against a street pole under artificial light, cinematic shadows, urban night ambiance, subtle glow on skin. The AI must keep the uploaded face identical. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p57', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">58. Tirando foto com câmera</h2>
+            <p class="description">Meta lifestyle: segurando câmera profissional no nível dos olhos, vibe criador de conteúdo.</p>
+            <div class="prompt-box" id="p58">Ultra-realistic shot of a person holding a professional camera up to eye level, capturing a shot, one eye visible, lifestyle creator vibe, soft lighting. The AI must preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p58', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">59. Subindo escada olhando para câmera</h2>
+            <p class="description">Composição diagonal dinâmica: subindo escada e virando a cabeça para a câmera.</p>
+            <div class="prompt-box" id="p59">Ultra-realistic dynamic shot of a person walking up stairs while turning head toward the camera, strong diagonal composition, natural light, depth. The AI must generate full body but keep the uploaded face unchanged. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p59', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">60. De pé com vento forte no corpo</h2>
+            <p class="description">Movimento natural: de pé com vento forte afetando roupa e cabelo de forma dramática.</p>
+            <div class="prompt-box" id="p60">Ultra-realistic outdoor photo of a person standing still while wind strongly affects clothing and hair, dramatic natural effect, cinematic lighting, high realism. The AI must generate full body but preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p60', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <!-- 61 a 80 -->
+        <div class="card">
+            <h2 class="title">61. Sentado na beirada da cadeira</h2>
+            <p class="description">Tensão corporal elegante: sentado na beirada da cadeira, tronco inclinado para frente e olhar direto com iluminação controlada.</p>
+            <div class="prompt-box" id="p61">Ultra-realistic photo of a person sitting at the very edge of a chair, torso slightly forward, hands gripping the sides lightly, subtle tension in posture, direct eye contact, studio or modern interior, controlled lighting with soft shadows. The AI must generate full body and environment but preserve the uploaded face exactly. User must upload a clear front-facing face image. 8K, cinematic realism. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p61', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">62. Corpo apoiado em uma perna só</h2>
+            <p class="description">Assimetria elegante: peso totalmente em uma perna, quadril inclinado e postura fashion com iluminação direcional suave.</p>
+            <div class="prompt-box" id="p62">Ultra-realistic full-body shot of a person standing with body weight shifted entirely onto one leg, hip slightly tilted, relaxed arm positioning, fashion posture, clean background, soft directional lighting. The AI must generate full body but keep the uploaded face unchanged. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p62', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">63. Sentado com tronco girado + olhar frontal</h2>
+            <p class="description">Composição high-fashion: corpo de lado mas tronco girado para a câmera com contraste forte no olhar.</p>
+            <div class="prompt-box" id="p63">Ultra-realistic photo of a person sitting facing sideways while twisting the upper body toward the camera, strong contrast between body direction and gaze, high-fashion composition, soft shadows. The AI must preserve the uploaded face exactly. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p63', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">64. Passo longo (stride exagerado)</h2>
+            <p class="description">Energia de passarela: passo longo exagerado com foco nítido no rosto e movimento realista.</p>
+            <div class="prompt-box" id="p64">Ultra-realistic dynamic shot of a person taking an exaggerated long step forward, legs stretched, upper body stable, fashion runway energy, motion realism with sharp face focus. The AI must generate full body but keep the uploaded face identical. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p64', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">65. Encostado com testa na parede</h2>
+            <p class="description">Mood introspectivo profundo: testa tocando a parede, olhos fechados ou baixos e luz suave no rosto.</p>
+            <div class="prompt-box" id="p65">Ultra-realistic photo of a person standing close to a wall with forehead lightly touching it, eyes closed or low, emotional depth, soft lighting gradient across face. The AI must generate environment but preserve the uploaded face exactly. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p65', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">66. Sentado com cotovelo no joelho + mão no queixo</h2>
+            <p class="description">Pose pensativa e confiante: cotovelo no joelho e mão sustentando o queixo com profundidade de campo rasa.</p>
+            <div class="prompt-box" id="p66">Ultra-realistic portrait of a person sitting with one elbow resting on the knee and hand supporting the chin, thoughtful yet confident expression, shallow depth of field, neutral background. The AI must keep the uploaded face unchanged. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p66', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">67. Virando jaqueta nas costas</h2>
+            <p class="description">Movimento fluido fashion: jaqueta sendo girada nas costas com tecido esvoaçando e luz cinematográfica.</p>
+            <div class="prompt-box" id="p67">Ultra-realistic action shot of a person swinging a jacket behind their shoulders mid-motion, fabric flowing, body slightly turned, cinematic lighting capturing motion. The AI must generate full body but preserve the uploaded face exactly. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p67', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">68. Inclinado lateralmente (quebra de eixo)</h2>
+            <p class="description">Composição artística: corpo inclinado fora do eixo vertical com equilíbrio e luz direcional.</p>
+            <div class="prompt-box" id="p68">Ultra-realistic photo of a person leaning sideways off vertical axis, body angled unnaturally but balanced, artistic composition, minimal background, directional light. The AI must preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p68', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">69. Sentado com pernas abertas</h2>
+            <p class="description">Postura dominante: pernas abertas, cotovelos apoiados casualmente e olhar forte em estúdio.</p>
+            <div class="prompt-box" id="p69">Ultra-realistic fashion shot of a person sitting with legs apart, elbows resting casually, dominant confident posture, strong eye contact, studio lighting. The AI must generate full body but keep the uploaded face identical. User must upload a clear face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p69', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">70. Meio corpo escondido atrás de objeto</h2>
+            <p class="description">Efeito de peek e profundidade: meio corpo escondido atrás de parede, pilar ou porta.</p>
+            <div class="prompt-box" id="p70">Ultra-realistic photo of a person partially hidden behind an object (wall, pillar, door), only half body visible, peeking effect, depth and layering, soft light. The AI must preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p70', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">71. Segurando gola com duas mãos</h2>
+            <p class="description">Intensidade dramática: segurando a gola com as duas mãos e puxando levemente com olhar forte.</p>
+            <div class="prompt-box" id="p71">Ultra-realistic close-up of a person gripping both sides of their collar, pulling slightly, intense gaze into camera, dramatic lighting, high contrast shadows. The AI must keep the uploaded face unchanged. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p71', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">72. Deitado de barriga para cima olhando câmera</h2>
+            <p class="description">Vista de cima editorial: deitado de barriga para cima com câmera acima e contato visual direto.</p>
+            <div class="prompt-box" id="p72">Ultra-realistic shot of a person lying on their back, camera positioned above, direct eye contact, soft natural lighting, shallow depth. The AI must generate composition but preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p72', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">73. Sentado no chão com braços apoiados atrás</h2>
+            <p class="description">Postura relaxada e confiante: sentado no chão com braços para trás sustentando o corpo.</p>
+            <div class="prompt-box" id="p73">Ultra-realistic photo of a person sitting on the ground with arms extended back supporting the body, chest slightly forward, relaxed confident posture, lifestyle background. The AI must generate full body but keep the uploaded face identical. User must upload a clear face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p73', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">74. Caminhando com olhar fixo intenso</h2>
+            <p class="description">Caminhada lenta e intensa direto para a câmera com fundo desfocado e iluminação cinematográfica.</p>
+            <div class="prompt-box" id="p74">Ultra-realistic shot of a person walking slowly toward the camera with intense fixed gaze, controlled motion, cinematic lighting, blurred background. The AI must preserve the uploaded face exactly. User must upload a high-quality face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p74', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">75. Olhando por entre os dedos</h2>
+            <p class="description">Frame criativo artístico: rosto parcialmente coberto pela mão e olhando por entre os dedos.</p>
+            <div class="prompt-box" id="p75">Ultra-realistic close-up of a person partially covering face with hand, looking through fingers, artistic framing, soft shadows, high detail skin texture. The AI must keep the uploaded face unchanged. User must upload a clear face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p75', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">76. Corpo inclinado para trás (equilíbrio)</h2>
+            <p class="description">Equilíbrio dinâmico: corpo inclinado para trás mantendo postura forte e iluminação direcional.</p>
+            <div class="prompt-box" id="p76">Ultra-realistic photo of a person leaning backward while standing, maintaining balance, strong core posture, minimal background, directional lighting. The AI must generate full body but preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p76', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">77. Encostado com ombro + olhar lateral baixo</h2>
+            <p class="description">Subtileza emocional: ombro encostado e olhar lateral baixo com luz cinematográfica.</p>
+            <div class="prompt-box" id="p77">Ultra-realistic photo of a person leaning with one shoulder against a surface, head slightly lowered, eyes looking sideways, subtle emotion, cinematic lighting. The AI must keep the uploaded face identical. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p77', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">78. Segurando objeto fora de foco</h2>
+            <p class="description">Profundidade extrema: objeto próximo à lente desfocado com rosto em foco nítido.</p>
+            <div class="prompt-box" id="p78">Ultra-realistic shot of a person holding an object close to the lens causing foreground blur, face in sharp focus, strong depth effect, cinematic composition. The AI must preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p78', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">79. Passando mão no pescoço</h2>
+            <p class="description">Sensação editorial elegante: mão tocando o pescoço com movimento lento e luz suave.</p>
+            <div class="prompt-box" id="p79">Ultra-realistic portrait of a person touching the neck area with one hand, elegant slow movement, soft lighting, shallow depth of field. The AI must keep the uploaded face unchanged. User must upload a clear face photo. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p79', this)">📋 Copiar Prompt</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">80. Sentado com corpo totalmente relaxado (anti-pose)</h2>
+            <p class="description">Anti-pose natural: postura totalmente relaxada e slouched com expressão candid em ambiente moderno.</p>
+            <div class="prompt-box" id="p80">Ultra-realistic lifestyle photo of a person sitting in a completely relaxed, almost slouched posture, natural candid expression, modern environment, soft ambient lighting. The AI must generate full body but preserve the uploaded face exactly. User must upload a high-quality face image. 8K. foto dela ira ficar mais realista</div>
+            <button class="btn" onclick="copyPrompt('p80', this)">📋 Copiar Prompt</button>
+        </div>
+
+    </div>
+
+    <script>
+        function copyPrompt(id, btn) {
+            const text = document.getElementById(id).innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                const originalText = btn.innerHTML;
+                btn.innerHTML = `✅ Copiado!`;
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                    btn.classList.remove('copied');
+                }, 2200);
+            }).catch(() => {
+                alert("❌ Não foi possível copiar (permissão negada).");
+            });
+        }
+    </script>
+</body>
+</html>
